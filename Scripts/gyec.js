@@ -5,7 +5,6 @@
 /*
 工业品爱消除
 活动共200关，通关可获得3星，600星可兑换1888京豆，按照cron运行只需7天即可得到
-感谢@yogayyy(https://github.com/yogayyy/Scripts)制作的图标
 活动入口：京东app首页-京东工业品-京东工业品年末盛典-勇闯消消乐
 已支持IOS双京东账号,Node.js支持N个京东账号
 boxjs 填写具体兑换商品的名称，默认为1888京豆
@@ -97,7 +96,9 @@ async function jdGy(help = true) {
   await getActInfo()
   await getTaskList()
   await getDailyMatch()
-  if (help) await helpFriends()
+  if (help) {
+    await helpFriends()
+  }
   // await marketGoods()
 }
 
@@ -215,6 +216,14 @@ function checkLogin() {
             $.gameToken = data.token
             $.strength = data.role.items['8003']
             console.log(`当前体力：${$.strength}`)
+            $.not3Star = []
+            for(let level of data.role.allLevels){
+              if(level.maxStar!==3){
+                $.not3Star.push(level.id)
+              }
+            }
+            if($.not3Star.length)
+              console.log(`当前尚未三星的关卡为：${$.not3Star.join(',')}`)
             // SecrectUtil.InitEncryptInfo($.gameToken, $.gameId)
           }
         }
@@ -249,6 +258,14 @@ function getTaskList() {
                   console.log(`当前关卡：${$.level}`)
                   while ($.strength >= 5) {
                     await beginLevel()
+                  }
+                  if($.not3Star.length){
+                    console.log(`去完成尚未三星的关卡`)
+                    for(let level of $.not3Star){
+                      $.level = parseInt(level)
+                      await beginLevel()
+                      if($.strength<5) break
+                    }
                   }
                 } else if (task.res.sName === "逛逛店铺" || task.res.sName === "浏览会场") {
                   if (task.state.iFreshTimes < task.res.iFreshTimes)
@@ -662,7 +679,7 @@ function getDailyMatch() {
                   await beginDailyMatch()
                 }
               } else {
-                console.log(`关卡开启失败，错误信息：${JSON.stringify(data)}`)
+                console.log(`暂无每日挑战任务`)
               }
             }
           }
@@ -853,6 +870,7 @@ function TotalBean() {
     })
   })
 }
+
 
 //格式化助力码
 function shareCodesFormat() {
