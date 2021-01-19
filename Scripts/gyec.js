@@ -1,15 +1,3 @@
-/*
- * @Date: 2021-01-15 16:25:41
- * @Last Modified time: 2021-01-16 18:25:41
- */
-/*
-工业品爱消除
-活动共200关，通关可获得3星，600星可兑换1888京豆，按照cron运行只需7天即可得到
-活动入口：京东app首页-京东工业品-京东工业品年末盛典-勇闯消消乐
-已支持IOS双京东账号,Node.js支持N个京东账号
-boxjs 填写具体兑换商品的名称，默认为1888京豆
-脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
- */
 const $ = new Env('工业品爱消除');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
