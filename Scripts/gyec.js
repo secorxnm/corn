@@ -10,20 +10,6 @@
 已支持IOS双京东账号,Node.js支持N个京东账号
 boxjs 填写具体兑换商品的名称，默认为1888京豆
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
-============Quantumultx===============
-[task_local]
-#工业品爱消除
-30 * * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js, tag=工业品爱消除, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_gyec.jpg, enabled=true
-
-================Loon==============
-[Script]
-cron "30 * * * *" script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js,tag=工业品爱消除
-
-===============Surge=================
-工业品爱消除 = type=cron,cronexp="30 * * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js
-
-============小火箭=========
-工业品爱消除 = type=cron,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js, cronexpr="30 * * * *", timeout=200, enable=true
  */
 const $ = new Env('工业品爱消除');
 const notify = $.isNode() ? require('./sendNotify') : '';
@@ -110,6 +96,7 @@ async function jdGy(help = true) {
   await getIsvToken2()
   await getActInfo()
   await getTaskList()
+  await getDailyMatch()
   if (help) await helpFriends()
   // await marketGoods()
 }
@@ -406,9 +393,11 @@ async function beginLevel() {
                 await $.wait(30000)
                 await endLevel()
               } else if (data.code === 20001) {
+                $.strength = 0
                 console.log(`关卡开启失败，体力不足`)
               } else {
-                console.log(`关卡开启失败，错误信息：${JSON.stringify(data)}`)
+                $.strength = 0
+                // console.log(`关卡开启失败，未知错误`)
               }
             }
           }
@@ -528,7 +517,7 @@ function finishTask(taskId) {
                 }
                 console.log(msg)
               } else {
-                console.log(`任务完成失败，错误信息：${JSON.stringify(data)}`)
+                // console.log(`任务完成失败，错误信息：${JSON.stringify(data)}`)
               }
             }
           }
@@ -644,6 +633,155 @@ function buyGood(consumeid) {
   })
 }
 
+
+function getDailyMatch() {
+  let body = {
+    'gameId': $.gameId,
+    'token': $.gameToken,
+    'reqsId': $.reqId++
+  }
+  return new Promise(resolve => {
+    $.post(taskUrl("eliminate_jd/game/local/getDailyMatch", obj2param(body), true),
+      async (err, resp, data) => {
+        try {
+          if (err) {
+            console.log(`${err}`)
+            console.log(resp)
+            console.log(`${$.name} API请求失败，请检查网路重试`)
+          } else {
+            if (safeGet(data)) {
+              data = JSON.parse(data)
+              // console.log(data)
+              if (data.code === 0) {
+                // console.log(data)
+                $.maxScore = parseInt(data.dailyMatchList[data.dailyMatchList.length - 1]['sScore'])
+                if (data.dayInfo.score >= $.maxScore && data.dayInfo.boxAwardIndex < 2) {
+                  await getDailyMatchAward()
+                }
+                if (data.dayInfo.dayPlayNums < 2) {
+                  await beginDailyMatch()
+                }
+              } else {
+                console.log(`关卡开启失败，错误信息：${JSON.stringify(data)}`)
+              }
+            }
+          }
+        } catch (e) {
+          $.logErr(e, resp)
+        } finally {
+          resolve(data);
+        }
+      })
+  })
+}
+
+function beginDailyMatch() {
+  let body = {
+    'gameId': $.gameId,
+    'token': $.gameToken,
+    'reqsId': $.reqId++,
+    'levelId': $.curLevel
+  }
+  return new Promise(resolve => {
+    $.post(taskUrl("eliminate_jd/game/local/beginDailyMatch", obj2param(body), true),
+      async (err, resp, data) => {
+        try {
+          if (err) {
+            console.log(`${err}`)
+            console.log(resp)
+            console.log(`${$.name} API请求失败，请检查网路重试`)
+          } else {
+            if (safeGet(data)) {
+              data = JSON.parse(data)
+              // console.log(data)
+              if (data.code === 0) {
+                console.log(`每日挑战开启成功，本日挑战次数${data.dayInfo.dayPlayNums}/2`)
+                $.curLevel = data.dayInfo.curLevel
+                await $.wait(30000)
+                await endDailyMatch()
+              } else {
+                console.log(`每日挑战开启失败，错误信息：${JSON.stringify(data)}`)
+              }
+            }
+          }
+        } catch (e) {
+          $.logErr(e, resp)
+        } finally {
+          resolve(data);
+        }
+      })
+  })
+}
+
+function endDailyMatch() {
+  let body = {
+    'gameId': $.gameId,
+    'token': $.gameToken,
+    'reqsId': $.reqId++,
+    'score': Math.trunc($.maxScore / 2) + 3,
+    'levelId': $.curLevel,
+  }
+  return new Promise(resolve => {
+    $.post(taskUrl("eliminate_jd/game/local/endDailyMatch", obj2param(body), true),
+      async (err, resp, data) => {
+        try {
+          if (err) {
+            console.log(`${err}`)
+            console.log(resp)
+            console.log(`${$.name} API请求失败，请检查网路重试`)
+          } else {
+            if (safeGet(data)) {
+              data = JSON.parse(data)
+              // console.log(data)
+              if (data.code === 0) {
+                console.log(`每日挑战完成成功，本日分数${data.dayInfo.score}`)
+              } else {
+                console.log(`每日挑战完成失败，错误信息：${JSON.stringify(data)}`)
+              }
+            }
+          }
+        } catch (e) {
+          $.logErr(e, resp)
+        } finally {
+          resolve(data);
+        }
+      })
+  })
+}
+
+function getDailyMatchAward() {
+  let body = {
+    'gameId': $.gameId,
+    'token': $.gameToken,
+    'reqsId': $.reqId++
+  }
+  return new Promise(resolve => {
+    $.post(taskUrl("eliminate_jd/game/local/getDailyMatchAward", obj2param(body), true),
+      async (err, resp, data) => {
+        try {
+          if (err) {
+            console.log(`${err}`)
+            console.log(resp)
+            console.log(`${$.name} API请求失败，请检查网路重试`)
+          } else {
+            if (safeGet(data)) {
+              data = JSON.parse(data)
+              // console.log(data)
+              if (data.code === 0) {
+                console.log(`每日挑战领取成功，获得${data.reward[0] === '11001' ? '消消乐星星' : '未知道具'}*${data.reward[1]}`)
+              } else {
+                console.log(`每日挑战领取失败，错误信息：${JSON.stringify(data)}`)
+              }
+            }
+          }
+        } catch (e) {
+          $.logErr(e, resp)
+        } finally {
+          resolve(data);
+        }
+      })
+  })
+}
 function taskUrl(functionId, body = {}, decrypt = false) {
   return {
     url: `https://jd.moxigame.cn/${functionId}`,
