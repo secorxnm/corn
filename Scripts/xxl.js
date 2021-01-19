@@ -1,13 +1,3 @@
-/*
- * @Date: 2021-01-17 16:25:41
- * @Last Modified time: 2021-01-18 18:25:41
- */
-/*
-东东爱消除，完成所有任务+每日挑战
-活动入口：京东app首页-我的-更多-东东爱消除
-已支持IOS双京东账号,Node.js支持N个京东账号
-脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
- */
 const $ = new Env('东东爱消除');
 const notify = $.isNode() ? require('./sendNotify.js') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
