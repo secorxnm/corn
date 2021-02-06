@@ -5,15 +5,6 @@
   "icon": "https://avatars.githubusercontent.com/u/70519720?s=60&v=4",
   "repo": "https://github.com/secorxnm/corn",
   "apps": [
-    {
-      "id": "dkd",
-      "name": "多看点",
-      "keys": ["dkdhd", "dkdbody","dkdtxhd","dkdtxbody"],
-      "author": "@age174",
-      "repo": "https://github.com/age174/-/blob/main/dkd.js",
-      "icons": [],
-      "script": "https://raw.githubusercontent.com/age174/-/main/dkd.js"
-    },
 	{
       "id": "BBB",
       "name": "步步宝",
