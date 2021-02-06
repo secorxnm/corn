@@ -10,9 +10,18 @@
       "name": "多看点",
       "keys": ["dkdhd", "dkdbody"],
       "author": "@age174",
-      "repo": "https://raw.githubusercontent.com/age174/-/main/dkd.js",
+      "repo": "https://github.com/age174/-/blob/main/dkd.js",
       "icons": [],
       "script": "https://raw.githubusercontent.com/age174/-/main/dkd.js"
+    },
+	{
+      "id": "BBB",
+      "name": "步步宝",
+      "keys": ["bbb_ck"],
+      "author": "@adwktt",
+      "repo": "https://github.com/adwktt/adwktt/blob/master/BBB.js",
+      "icons": [],
+      "script": "https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js"
     }
   ]
 }
