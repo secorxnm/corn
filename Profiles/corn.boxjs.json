@@ -28,10 +28,8 @@
           "placeholder": "",
           "desc": "视频body"
         }],
-		"icons": "https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/X003.png",
+	"icons": "https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/X003.png",
         "script": "https://raw.githubusercontent.com/age174/-/main/dkd.js"
-       "https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/X003.png",
-      "script": "https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js"
     }
   ]
 }
