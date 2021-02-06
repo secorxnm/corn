@@ -8,7 +8,7 @@
     {
       "id": "dkd",
       "name": "多看点",
-      "keys": ["dkdhd", "dkdbody"],
+      "keys": ["dkdhd", "dkdbody","dkdtxhd","dkdtxbody"],
       "author": "@age174",
       "repo": "https://github.com/age174/-/blob/main/dkd.js",
       "icons": [],
