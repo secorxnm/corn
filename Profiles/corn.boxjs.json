@@ -22,11 +22,11 @@
         },
         {
           "id": "dkdbody",
-          "name": "视频body",
+          "name": "多看点视频body",
           "val": "",
           "type": "number",
           "placeholder": "",
-          "desc": "视频body"
+          "desc": "多看点视频body"
         }
 	   ],
        "icons": [],
