@@ -11,26 +11,8 @@
       "keys": ["dkdhd", "dkdbody"],
       "author": "@age174",
       "repo": "https://raw.githubusercontent.com/age174/-/main/dkd.js",
-      "settings": [
-	          {
-          "id": "dkdhd",
-          "name": "多看点Cookie",
-          "val": "",
-          "type": "number",
-          "placeholder": "",
-          "desc": "多看点Cookie"
-        },
-        {
-          "id": "dkdbody",
-          "name": "多看点视频body",
-          "val": "",
-          "type": "number",
-          "placeholder": "",
-          "desc": "多看点视频body"
-        }
-	   ],
-       "icons": [],
-       "script": "https://raw.githubusercontent.com/age174/-/main/dkd.js"
+      "icons": [],
+      "script": "https://raw.githubusercontent.com/age174/-/main/dkd.js"
     }
   ]
 }
