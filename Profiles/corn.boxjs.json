@@ -1,0 +1,37 @@
+{
+  "id": "corn.app.sub",
+  "name": "corn 应用订阅",
+  "author": "@corn",
+  "icon": "https://avatars.githubusercontent.com/u/70519720?s=60&v=4",
+  "repo": "https://github.com/secorxnm/corn",
+  "apps": [
+    {
+      "id": "dkd",
+      "name": "多看点",
+      "keys": ["dkdhd"，"dkdbody"],
+      "author": "@age174",
+      "repo": "https://raw.githubusercontent.com/age174/-/main/dkd.js",
+      "settings": [
+	          {
+          "id": "dkdhd",
+          "name": "多看点Cookie",
+          "val": "",
+          "type": "number",
+          "placeholder": "",
+          "desc": "多看点Cookie"
+        },
+        {
+          "id": "dkdbody",
+          "name": "视频body",
+          "val": "",
+          "type": "number",
+          "placeholder": "",
+          "desc": "视频body"
+        }],
+		"icons": "https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/X003.png",
+        "script": "https://raw.githubusercontent.com/age174/-/main/dkd.js"
+       "https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/X003.png",
+      "script": "https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js"
+    }
+  ]
+}
