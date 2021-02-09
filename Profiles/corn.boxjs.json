@@ -15,8 +15,8 @@
       "script": "https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js"
     },
 	{
-      "id": "10000",
-      "name": "10000",
+      "id": "tele10000",
+      "name": "电信10000签到",
       "keys": ["chavy_signheader_10000", "chavy_signbody_10000", "chavy_mobile_10000"],
       "settings": [{ "id": "chavy_mobile_10000", "name": "手机号码", "val": "", "type": "textarea", "placeholder": "18918920000,\n18918920000", "autoGrow": true, "rows": 5, "desc": "以英文逗号分隔多个号码, 可加回车" }],
       "author": "@wangfei021325, @chavyleung",
