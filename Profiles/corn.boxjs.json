@@ -25,6 +25,11 @@
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/10000.png", "https://raw.githubusercontent.com/Orz-3/task/master/10000.png"]
     },
 	{
+      "id": "zqyd",
+      "name": "中青阅读",
+      "keys": ["youth_autoread"],
+	  "settings": [
+    {
       "id": "youth_autoread",
       "name": "中青自动阅读",
       "keys": ["youth_autoread"],
@@ -33,10 +38,11 @@
       "autoGrow": false,
       "rows": 1,
       "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据",
+    }
+   ],
       "author": "@sunert, @corn",
       "repo": "https://github.com/Sunert/Scripts/blob/master/Task/Youth_Read.js",
       "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/youth.png", "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"]
-    }
   ]
 }
