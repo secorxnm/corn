@@ -32,7 +32,6 @@
     {
       "id": "youth_autoread",
       "name": "中青自动阅读",
-      "keys": ["youth_autoread"],
       "val": "",
       "type": "textarea",
       "autoGrow": false,
