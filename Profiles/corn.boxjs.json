@@ -23,6 +23,20 @@
       "repo": "https://github.com/chavyleung/scripts/blob/master/10000/10000.js",
       "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/10000.png", "https://raw.githubusercontent.com/Orz-3/task/master/10000.png"]
+    },
+	{
+      "id": "youth_autoread",
+	  "name": "中青自动阅读",
+	  "keys": ["youth_autoread"],
+	  "val": "",
+	  "type": "textarea",
+	  "autoGrow": false,
+	  "rows": 1,
+	  "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+	  "author": "@Sunert",
+	  "repo": "https://github.com/Sunert/Scripts/blob/master/Task/Youth_Read.js",
+      "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/youth.png", "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"]
     }
   ]
 }
