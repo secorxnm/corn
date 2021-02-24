@@ -28,14 +28,14 @@
       "id": "youth_read",
       "name": "中青自动阅读bySunert",
       "keys": ["youth_autoread"],
-	  "settings": [{"id": "youth_autoread", "name": "请求body", "val": "","type": "textarea", "autoGrow": false, "rows": 1, "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"}],
+      "settings": [{"id": "youth_autoread", "name": "请求body", "val": "","type": "textarea", "autoGrow": false, "rows": 1, "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"}],
       "author": "@sunert, @corn",
       "repo": "https://github.com/Sunert/Scripts/blob/master/Task/Youth_Read.js",
       "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/youth.png", "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"]
 	},
 	{
-	"id": "youthNeRead",
+      "id": "youthNeRead",
       "name": "中青阅读",
       "keys": ["youthheader_zq", "read_zq", "readtime_zq", "next_read_time", "red_zq", "read_pre_num", "read_count", "replaceable_idx", "next_exec_read_time"],
       "descs_html": ["中青阅读脚本地址【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/zqread.js\">中青阅读</a>】", "注意：因此脚本使用的阅读数据存储位置与songyangzz大佬的不同，所以需搭配【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/rewrite-zqread.plugin\">阅读数据抓包订阅</a>】抓取的阅读数据使用"],
