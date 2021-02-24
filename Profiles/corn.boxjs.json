@@ -45,8 +45,7 @@
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
       "script": "https://raw.githubusercontent.com/ztxtop/x/main/zqread.js"
 	},
-	,
-    {
+	{
       "id": "youthBanner_mod",
       "name": "中青看看赚by_ztxtop",
       "keys": ["youth_banner", "youth_android_readtime", "youth_android_reward", "youth_android_newtask", "delErrorData"],
