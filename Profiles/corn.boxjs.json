@@ -26,7 +26,7 @@
     },
 	{
       "id": "youth_read_mod",
-      "name": "中青自动阅读 by Sunert",
+      "name": "中青自动阅读bySunert",
       "keys": ["youth_autoread"],
       "settings": [{"id": "youth_autoread", "name": "请求body", "val": "","type": "textarea", "autoGrow": false, "rows": 1, "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"}],
       "author": "@sunert, @corn",
@@ -36,7 +36,7 @@
 	},
 	{
       "id": "youth_read_NE_mod",
-      "name": "中青阅读 by ztxtop",
+      "name": "中青阅读by_ztxtop",
       "keys": ["youthheader_zq", "read_zq", "readtime_zq", "next_read_time", "red_zq", "read_pre_num", "read_count", "replaceable_idx", "next_exec_read_time", "readMode", "zqReadScheme"],
       "descs_html": ["中青阅读脚本地址【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/zqread.js\">中青阅读</a>】", "注意：因此脚本使用的阅读数据存储位置与songyangzz大佬的不同，所以需搭配【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/rewrite-zqread.plugin\">阅读数据抓包订阅</a>】抓取的阅读数据使用"],
       "author": "@ztxtop, @corn",
@@ -49,7 +49,7 @@
 	,
     {
       "id": "youthBanner_mod",
-      "name": "中青看看赚 by ztxtop",
+      "name": "中青看看赚by_ztxtop",
       "keys": ["youth_banner", "youth_android_readtime", "youth_android_reward", "youth_android_newtask", "delErrorData"],
       "author": "@ztxtop, @corn",
       "settings": [{"id": "delErrorData", "name": "移除当日失败两次+的任务数据", "val": "0", "type": "radios", "items": [{"key": "0", "label": "不移除"}, {"key": "1", "label": "移除"}]}],
