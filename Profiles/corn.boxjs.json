@@ -15,6 +15,15 @@
       "script": "https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js"
 	},
 	{
+      "id": "dkd_mod",
+      "name": "多看点by_age174",
+      "keys": ["dkdurl", "dkdhd", "dkdbody", "dkdtxurl", "dkdtxhd", "dkdtxbody"],
+      "author": "@age174, @corn",
+      "repo": "https://github.com/age174/-/blob/main/dkd.js",
+      "icons": ["https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/duokandian.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/duokandian.png"],
+      "script": "https://raw.githubusercontent.com/age174/-/main/dkd.js"
+	},
+	{
       "id": "tele10000_mod",
       "name": "电信10000签到by_chavy",
       "keys": ["chavy_signheader_10000", "chavy_signbody_10000", "chavy_mobile_10000"],
