@@ -57,12 +57,21 @@
 	},
 	{
       "id": "ymz_mod",
-      "name": "ymz_age174",
+      "name": "羊毛赚_age174",
       "keys": ["ymzurl", "ymzhd", "ymzbody", "ymzbody1", "ymztxbody"],
       "author": "@age174, @corn",
       "repo": "https://github.com/age174/-/blob/main/ymz.js",
       "icons": ["", ""],
       "script": "https://raw.githubusercontent.com/age174/-/main/ymz.js"
+	},
+	{
+      "id": "xp_mod",
+      "name": "笑谱_adwktt",
+      "keys": ["xp_ck", "xp_rtk"],
+      "author": "@adwktt, @corn",
+      "repo": "https://github.com/adwktt/adwktt/blob/master/xp.js",
+      "icons": ["", ""],
+      "script": "https://raw.githubusercontent.com/adwktt/adwktt/master/xp.js"
 	}
   ]
 }
