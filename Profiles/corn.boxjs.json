@@ -77,7 +77,7 @@
       "id": "xp_mod2",
       "name": "笑谱(ziye)",
       "keys": ["refreshtoken", "iboxpayLIVE", "iboxpayCASH"],
-      "author": "@adwktt, @corn",
+      "author": "@ziye, @corn",
       "repo": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/iboxpay.js",
       "icons": ["", ""],
       "script": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/iboxpay.js"
