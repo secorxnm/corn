@@ -7,7 +7,7 @@
   "apps": [
 	{
       "id": "BBB_mod",
-      "name": "步步宝by_adwktt",
+      "name": "步步宝(adwktt)",
       "keys": ["bbb_ck"],
       "author": "@adwktt, @corn",
       "repo": "https://github.com/adwktt/adwktt/blob/master/BBB.js",
@@ -16,7 +16,7 @@
 	},
 	{
       "id": "tele10000_mod",
-      "name": "电信10000签到by_chavy",
+      "name": "电信10000签到(chavy)",
       "keys": ["chavy_signheader_10000", "chavy_signbody_10000", "chavy_mobile_10000"],
       "settings": [{ "id": "chavy_mobile_10000", "name": "手机号码", "val": "", "type": "textarea", "placeholder": "18918920000,\n18918920000", "autoGrow": true, "rows": 5, "desc": "以英文逗号分隔多个号码, 可加回车" }],
       "author": "@wangfei021325, @chavyleung, @corn",
@@ -26,7 +26,7 @@
 	},
 	{
       "id": "youth_read_NE_mod",
-      "name": "中青阅读by_ztxtop",
+      "name": "中青阅读(ztxtop)",
       "keys": ["youthheader_zq", "read_zq", "readtime_zq", "next_read_time", "red_zq", "read_pre_num", "read_count", "replaceable_idx", "next_exec_read_time", "readMode", "zqReadScheme"],
       "descs_html": ["中青阅读脚本地址【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/zqread.js\">中青阅读</a>】", "注意：因此脚本使用的阅读数据存储位置与songyangzz大佬的不同，所以需搭配【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/rewrite-zqread.plugin\">阅读数据抓包订阅</a>】抓取的阅读数据使用"],
       "author": "@ztxtop, @corn",
@@ -38,7 +38,7 @@
 	},
 	{
       "id": "youthBanner_mod",
-      "name": "中青看看赚by_ztxtop",
+      "name": "中青看看赚(ztxtop)",
       "keys": ["youth_banner", "youth_android_readtime", "youth_android_reward", "youth_android_newtask", "delErrorData"],
       "author": "@ztxtop, @corn",
       "settings": [{"id": "delErrorData", "name": "移除当日失败两次+的任务数据", "val": "0", "type": "radios", "items": [{"key": "0", "label": "不移除"}, {"key": "1", "label": "移除"}]}],
@@ -48,7 +48,7 @@
 	},
 	{
       "id": "bigfun_mod",
-      "name": "bigfunby_age174",
+      "name": "bigfun(age174)",
       "keys": ["bfurl", "bfhd", "bfbody"],
       "author": "@age174, @corn",
       "repo": "https://github.com/age174/-/blob/main/bigfun.js",
@@ -57,7 +57,7 @@
 	},
 	{
       "id": "ymz_mod",
-      "name": "羊毛赚_age174",
+      "name": "羊毛赚(age174)",
       "keys": ["ymzurl", "ymzhd", "ymzbody", "ymzbody1", "ymztxbody"],
       "author": "@age174, @corn",
       "repo": "https://github.com/age174/-/blob/main/ymz.js",
@@ -65,13 +65,22 @@
       "script": "https://raw.githubusercontent.com/age174/-/main/ymz.js"
 	},
 	{
-      "id": "xp_mod",
-      "name": "笑谱_adwktt",
+      "id": "xp_mod1",
+      "name": "笑谱(adwktt)",
       "keys": ["xp_ck", "xp_rtk"],
       "author": "@adwktt, @corn",
       "repo": "https://github.com/adwktt/adwktt/blob/master/xp.js",
       "icons": ["", ""],
       "script": "https://raw.githubusercontent.com/adwktt/adwktt/master/xp.js"
+	},
+	{
+      "id": "xp_mod2",
+      "name": "笑谱(ziye)",
+      "keys": ["refreshtoken", "iboxpayLIVE", "iboxpayCASH"],
+      "author": "@adwktt, @corn",
+      "repo": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/iboxpay.js",
+      "icons": ["", ""],
+      "script": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/iboxpay.js"
 	}
   ]
 }
