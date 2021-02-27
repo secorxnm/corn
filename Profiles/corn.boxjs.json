@@ -45,7 +45,7 @@
       "repo": "https://github.com/ztxtop/x/blob/main/youth_banner.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
       "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
-    },
+	},
 	{
       "id": "bigfun_mod",
       "name": "bigfunby_age174",
@@ -54,6 +54,15 @@
       "repo": "https://github.com/age174/-/blob/main/bigfun.js",
       "icons": ["", ""],
       "script": "https://raw.githubusercontent.com/age174/-/main/bigfun.js"
+	},
+	{
+      "id": "ymz_mod",
+      "name": "ymz_age174",
+      "keys": ["ymzurl", "ymzhd", "ymzbody", "ymzbody1", "ymztxbody"],
+      "author": "@age174, @corn",
+      "repo": "https://github.com/age174/-/blob/main/ymz.js",
+      "icons": ["", ""],
+      "script": "https://raw.githubusercontent.com/age174/-/main/ymz.js"
 	}
   ]
 }
