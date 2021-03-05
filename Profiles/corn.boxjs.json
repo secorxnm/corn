@@ -67,15 +67,6 @@
 	},
 	{
       "id": "xp_mod1",
-      "name": "笑谱(adwktt)",
-      "keys": ["xp_ck", "xp_rtk"],
-      "author": "@adwktt, @corn",
-      "repo": "https://github.com/adwktt/adwktt/blob/master/xp.js",
-      "icons": ["", ""],
-      "script": "https://raw.githubusercontent.com/adwktt/adwktt/master/xp.js"
-	},
-	{
-      "id": "xp_mod2",
       "name": "笑谱(ziye)",
       "keys": ["refreshtoken", "iboxpayLIVE", "iboxpayCASH"],
       "author": "@ziye, @corn",
