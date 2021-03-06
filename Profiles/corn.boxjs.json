@@ -66,13 +66,22 @@
       "script": "https://raw.githubusercontent.com/age174/-/main/bigfun.js"
 	},
 	{
-      "id": "xp_mod1",
+      "id": "xp_mod",
       "name": "笑谱(ziye)",
       "keys": ["refreshtoken", "iboxpayLIVE", "iboxpayCASH"],
       "author": "@ziye, @corn",
-      "repo": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/iboxpay.js",
+      "repo": "https://github.com/secorxnm/corn/blob/main/Scripts/iboxpay.js",
       "icons": ["", ""],
-      "script": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/iboxpay.js"
+      "script": "https://raw.githubusercontent.com/secorxnm/corn/main/Scripts/iboxpay.js"
+	},
+	{
+      "id": "xfdtx",
+      "name": "财富岛提现",
+      "keys": ["jx_tokens"],
+      "author": "@corn",
+      "repo": "https://github.com/secorxnm/corn/blob/main/Scripts/jx_cfdtx.js",
+      "icons": ["", ""],
+      "script": "https://raw.githubusercontent.com/secorxnm/corn/main/Scripts/jx_cfdtx.js"
 	}
   ]
 }
