@@ -1,6 +1,4 @@
 ###Block###
-# Google AD
-||www.googleadservices.com^
 # Taobao video
 ||cloud.video.taobao.com^
 # UniversalLinks anti-redirect & block detection
@@ -21,8 +19,8 @@
 ||boot-img.xuexi.cn^
 ||mpaas-component-mgs4zwy.aliyuncs.com^
 #Block Apple Update
-||mesu.apple.com^
-||gdmf.apple.com^
+#||mesu.apple.com^
+#||gdmf.apple.com^
 #||appldnld.apple.com^
 #||xp.apple.com^
 #||ns.itunes.apple.com^
