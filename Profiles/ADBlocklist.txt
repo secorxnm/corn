@@ -3,13 +3,13 @@
 ||app-site-association.cdn-apple.com^
 ||app-site-association.networking.apple^
 ||app-site-association.cdn-apple.com.akadns.net^
-# Block RED小红书 ad
+# Block RED小红书 ads
 ||ads-video-al.xhscdn.com^
 ||ads-img-al.xhscdn.com^
 # Block 随申码 update & ads
 ||video.goofish.com^
 ||cdn.eshimin.com^
-# Blcok 学习强国 image & video
+# Blcok 学习强国 images & videos
 ||cloudauth-device.aliyuncs.com^
 ||mpaas-loggw4zwy.aliyuncs.com^
 ||arms-retcode.aliyuncs.com^
