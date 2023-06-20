@@ -38,4 +38,7 @@
 ||live-spare.alicdn.com^$important
 ||dinamicx.alibabausercontent.com^$important
 ||fullscreen-detail.alicdn.com^$important
+# Taobao Live
+||alive-interact.alicdn.com^$important
+||alive-components.alibaba.com^$important
 
