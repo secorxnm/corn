@@ -41,4 +41,7 @@
 # Taobao Live
 ||alive-interact.alicdn.com^$important
 ||alive-components.alibaba.com^$important
+# Taobao game
+#||ark-handler-bottom.m.taobao.com^$important
+
 
