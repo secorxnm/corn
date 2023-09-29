@@ -17,25 +17,25 @@
 ||boot-img.xuexi.cn^
 ||mpaas-component-mgs4zwy.aliyuncs.com^
 # Block Apple Update
-||gdmf.apple.com^
-||appldnld.apple.com^
-||xp.apple.com^
-||ns.itunes.apple.com^
-||gg.apple.com^
-||ocsp.int-x3.letsencrypt.org^
-||ocsp.apple.com^
-||world-gen.g.aaplimg.com^
-||smp-device-content.apple.com^$important
+#||gdmf.apple.com^
+#||appldnld.apple.com^
+#||xp.apple.com^
+#||ns.itunes.apple.com^
+#||gg.apple.com^
+#||ocsp.int-x3.letsencrypt.org^
+#||ocsp.apple.com^
+#||world-gen.g.aaplimg.com^
+#||smp-device-content.apple.com^$important
 # Apple Spotlight Suggestion
-||api.smoot.apple.cn^$important
-||api.smoot.apple.com^$important
+#||api.smoot.apple.cn^$important
+#||api.smoot.apple.com^$important
 # Apple siri Dictation
-||guzzoni.apple.com^$important
+#||guzzoni.apple.com^$important
 # Apple other?
-||pancake.apple.com^$important
-||ipcdn.apple.com^$important
+#||pancake.apple.com^$important
+#||ipcdn.apple.com^$important
 # Apple detect Zone?
-||gspe1-ssl.ls.apple.com^$important
+#||gspe1-ssl.ls.apple.com^$important
 # Block Taobao shop page
 ||cloud.video.taobao.com^
 ||cloudvideocdn.taobao.com^$important
