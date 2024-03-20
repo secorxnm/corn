@@ -1,8 +1,8 @@
 ###Block###
 # UniversalLinks anti-redirect & block detection
-app-site-association.cdn-apple.com
-app-site-association.networking.apple
-app-site-association.cdn-apple.com.akadns.net
+# app-site-association.cdn-apple.com
+# app-site-association.networking.apple
+# app-site-association.cdn-apple.com.akadns.net
 # Block RED小红书 ads
 ads-video-al.xhscdn.com
 ads-img-al.xhscdn.com
