@@ -232,7 +232,7 @@
 ||112.194.65.102:80^
 ||wxsnsdythumb.wxs.qq.com^
 ||wxsnsdy.wxs.qq.com^
-||mp.weixin.qq.com^
+## ||mp.weixin.qq.com^
 ||p6-ad-sign.byteimg.com^
 ||p9-ad-sign.byteimg.com^
 ||v6-novelapp.fqnovelvod.com^
