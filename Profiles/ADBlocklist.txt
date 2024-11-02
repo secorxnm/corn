@@ -3,12 +3,15 @@
 ||app-site-association.cdn-apple.com^
 ||app-site-association.networking.apple^
 ||app-site-association.cdn-apple.com.akadns.net^
+
 # Block RED小红书 ads
 ||ads-video-al.xhscdn.com^
 ||ads-img-al.xhscdn.com^
+
 # Block 随申码 update & ads
 ||video.goofish.com^
 ||cdn.eshimin.com^
+
 # Blcok 学习强国 images & videos
 ||cloudauth-device.aliyuncs.com^
 ||mpaas-loggw4zwy.aliyuncs.com^
@@ -43,10 +46,12 @@
 ||live-spare.alicdn.com^$important
 ||dinamicx.alibabausercontent.com^$important
 ||fullscreen-detail.alicdn.com^$important
+
 # Taobao Live
 ||alive-interact.alicdn.com^$important
 ||alive-components.alibaba.com^$important
 ||liveca-rtclive.taobao.com^$important
+
 # Taobao game
 #||ark-handler-bottom.m.taobao.com^$important
 
@@ -119,7 +124,6 @@
 ||settings.ttwebview.com^$important
 
 #番茄小说
-
 ||polaris3-normal-lq.zijieapi.com^$app=com.dragon.read
 ||v3-novelapp.fqnovelvod.com^$app=com.dragon.read
 ||ads3-normal-lq.zijieapi.com^$app=com.dragon.read
