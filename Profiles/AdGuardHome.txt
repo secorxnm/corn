@@ -322,3 +322,24 @@
 /.*pcdn.*biliapi.net/
 /.*pcdn.*youku.com/
 ||pcdn.yximgs.com
+
+# block weixin httpdns
+||aedns.weixin.qq.com^$important
+
+# Allow Taobao History
+@@||tbskip.taobao.com^$important
+# Allow PayPal authorising
+@@||www.paypalobjects.com^$important
+# Allow cmbc
+# @@||metric.ccc.cmbchina.com^$important
+# Allow ultra moible charge
+@@||js.braintreegateway.com^$important
+## Allow zijie
+@@||lf3-cdn-tos.bytegoofy.com^$important
+@@||lf-cdn-tos.bytescm.com^$important
+@@||p3-sign.douyinpic.com^$important
+@@||mon.zijieapi.com^$important
+## Allow ETC check
+@@||web-stat.jiguang.cn^$important
+## Allow youtube history
+@@||s.youtube.com^$important
