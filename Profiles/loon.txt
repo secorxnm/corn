@@ -1,36 +1,38 @@
 ###Block###
+
 # Block UniversalLinks anti-redirect & block detection
-DOMAIN,app-site-association.cdn-apple.com,REJECT-DROP
-DOMAIN,app-site-association.networking.apple,REJECT-DROP
-DOMAIN,app-site-association.cdn-apple.com.akadns.net,REJECT-DROP
+DOMAIN,app-site-association.cdn-apple.com
+DOMAIN,app-site-association.networking.apple
+DOMAIN,app-site-association.cdn-apple.com.akadns.net
 
  # Apple
-DOMAIN,ca.iadsdk.apple.com,REJECT-DROP
+DOMAIN,ca.iadsdk.apple.com
 
 # Ali
-DOMAIN,audid-api.taobao.com,REJECT-DROP
-DOMAIN,mdap.alipay.com,REJECT-DROP
-DOMAIN,atoken.m.taobao.com,REJECT-DROP
-DOMAIN,dinamicx.alibabausercontent.com,REJECT-DROP
+DOMAIN,audid-api.taobao.com
+DOMAIN,mdap.alipay.com
+DOMAIN,atoken.m.taobao.com
+DOMAIN,dinamicx.alibabausercontent.com
+DOMAIN-SUFFIX,log.aliyuncs.com
 
 # Block RED小红书 ads
-DOMAIN,ads-video-al.xhscdn.com,REJECT-DROP
-DOMAIN,ads-img-al.xhscdn.com,REJECT-DROP
+DOMAIN,ads-video-al.xhscdn.com
+DOMAIN,ads-img-al.xhscdn.com
 
 # Block 随申码 update & ads
-DOMAIN,video.goofish.com,REJECT-DROP
-DOMAIN,cdn.eshimin.com,REJECT-DROP
+DOMAIN,video.goofish.com
+DOMAIN,cdn.eshimin.com
 
 # Blcok 学习强国 images & videos
-DOMAIN,cloudauth-device.aliyuncs.com,REJECT-DROP
-DOMAIN,mpaas-loggw4zwy.aliyuncs.com,REJECT-DROP
-DOMAIN,arms-retcode.aliyuncs.com,REJECT-DROP
-DOMAIN,boot-video.xuexi.cn,REJECT-DROP
-DOMAIN,boot-img.xuexi.cn,REJECT-DROP
-DOMAIN,mpaas-component-mgs4zwy.aliyuncs.com,REJECT-DROP
+DOMAIN,cloudauth-device.aliyuncs.com
+DOMAIN,mpaas-loggw4zwy.aliyuncs.com
+DOMAIN,arms-retcode.aliyuncs.com
+DOMAIN,boot-video.xuexi.cn
+DOMAIN,boot-img.xuexi.cn
+DOMAIN,mpaas-component-mgs4zwy.aliyuncs.com
 
 # Block Taobao shop page
-DOMAIN,cloud.video.taobao.com,REJECT-DROP
+DOMAIN,cloud.video.taobao.com
 
 # Block Apple Update
 #gdmf.apple.com
