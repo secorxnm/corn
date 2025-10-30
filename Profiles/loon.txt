@@ -1,36 +1,36 @@
 ###Block###
 # Block UniversalLinks anti-redirect & block detection
-app-site-association.cdn-apple.com
-app-site-association.networking.apple
-app-site-association.cdn-apple.com.akadns.net
+DOMAIN,app-site-association.cdn-apple.com,REJECT-DROP
+DOMAIN,app-site-association.networking.apple,REJECT-DROP
+DOMAIN,app-site-association.cdn-apple.com.akadns.net,REJECT-DROP
 
  # Apple
-ca.iadsdk.apple.com
+DOMAIN,ca.iadsdk.apple.com,REJECT-DROP
 
 # Ali
-audid-api.taobao.com
-mdap.alipay.com
-atoken.m.taobao.com
-dinamicx.alibabausercontent.com
+DOMAIN,audid-api.taobao.com,REJECT-DROP
+DOMAIN,mdap.alipay.com,REJECT-DROP
+DOMAIN,atoken.m.taobao.com,REJECT-DROP
+DOMAIN,dinamicx.alibabausercontent.com,REJECT-DROP
 
 # Block RED小红书 ads
-ads-video-al.xhscdn.com
-ads-img-al.xhscdn.com
+DOMAIN,ads-video-al.xhscdn.com,REJECT-DROP
+DOMAIN,ads-img-al.xhscdn.com,REJECT-DROP
 
 # Block 随申码 update & ads
-video.goofish.com
-cdn.eshimin.com
+DOMAIN,video.goofish.com,REJECT-DROP
+DOMAIN,cdn.eshimin.com,REJECT-DROP
 
 # Blcok 学习强国 images & videos
-cloudauth-device.aliyuncs.com
-mpaas-loggw4zwy.aliyuncs.com
-arms-retcode.aliyuncs.com
-boot-video.xuexi.cn
-boot-img.xuexi.cn
-mpaas-component-mgs4zwy.aliyuncs.com
+DOMAIN,cloudauth-device.aliyuncs.com,REJECT-DROP
+DOMAIN,mpaas-loggw4zwy.aliyuncs.com,REJECT-DROP
+DOMAIN,arms-retcode.aliyuncs.com,REJECT-DROP
+DOMAIN,boot-video.xuexi.cn,REJECT-DROP
+DOMAIN,boot-img.xuexi.cn,REJECT-DROP
+DOMAIN,mpaas-component-mgs4zwy.aliyuncs.com,REJECT-DROP
 
 # Block Taobao shop page
-cloud.video.taobao.com
+DOMAIN,cloud.video.taobao.com,REJECT-DROP
 
 # Block Apple Update
 #gdmf.apple.com
