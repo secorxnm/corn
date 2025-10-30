@@ -7,6 +7,7 @@ DOMAIN,app-site-association.cdn-apple.com.akadns.net
 
  # Apple
 DOMAIN,ca.iadsdk.apple.com
+DOMAIN,api-adservices.apple.com
 
 # Ali
 DOMAIN,audid-api.taobao.com
