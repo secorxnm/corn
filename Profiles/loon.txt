@@ -13,6 +13,7 @@ DOMAIN,api-adservices.apple.com
 DOMAIN,audid-api.taobao.com
 DOMAIN,atoken.m.taobao.com
 DOMAIN,mdap.alipay.com
+DOMAIN,loggw-ex.alipay.com
 DOMAIN,dinamicx.alibabausercontent.com
 DOMAIN-SUFFIX,log.aliyuncs.com
 
