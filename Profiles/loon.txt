@@ -11,20 +11,20 @@ DOMAIN,api-adservices.apple.com
 
 # Ali
 DOMAIN,audid-api.taobao.com
-DOMAIN,mdap.alipay.com
 DOMAIN,atoken.m.taobao.com
+DOMAIN,mdap.alipay.com
 DOMAIN,dinamicx.alibabausercontent.com
 DOMAIN-SUFFIX,log.aliyuncs.com
 
-# Block RED小红书 ads
+# Block REDNOTE ads
 DOMAIN,ads-video-al.xhscdn.com
 DOMAIN,ads-img-al.xhscdn.com
 
-# Block 随申码 update & ads
+# Block 随申办 update & ads
 DOMAIN,video.goofish.com
 DOMAIN,cdn.eshimin.com
 
-# Blcok 学习强国 images & videos
+# Blcok xxqg images & videos
 DOMAIN,cloudauth-device.aliyuncs.com
 DOMAIN,mpaas-loggw4zwy.aliyuncs.com
 DOMAIN,arms-retcode.aliyuncs.com
@@ -34,13 +34,3 @@ DOMAIN,mpaas-component-mgs4zwy.aliyuncs.com
 
 # Block Taobao shop page
 DOMAIN,cloud.video.taobao.com
-
-# Block Apple Update
-#gdmf.apple.com
-#appldnld.apple.com
-#xp.apple.com
-#ns.itunes.apple.com
-#gg.apple.com
-#ocsp.int-x3.letsencrypt.org
-#ocsp.apple.com
-#world-gen.g.aaplimg.com
