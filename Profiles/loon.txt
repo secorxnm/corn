@@ -1,0 +1,34 @@
+###Block###
+# Block UniversalLinks anti-redirect & block detection
+app-site-association.cdn-apple.com
+app-site-association.networking.apple
+app-site-association.cdn-apple.com.akadns.net
+
+# Block RED小红书 ads
+ads-video-al.xhscdn.com
+ads-img-al.xhscdn.com
+
+# Block 随申码 update & ads
+video.goofish.com
+cdn.eshimin.com
+
+# Blcok 学习强国 images & videos
+cloudauth-device.aliyuncs.com
+mpaas-loggw4zwy.aliyuncs.com
+arms-retcode.aliyuncs.com
+boot-video.xuexi.cn
+boot-img.xuexi.cn
+mpaas-component-mgs4zwy.aliyuncs.com
+
+# Block Taobao shop page
+cloud.video.taobao.com
+
+# Block Apple Update
+#gdmf.apple.com
+#appldnld.apple.com
+#xp.apple.com
+#ns.itunes.apple.com
+#gg.apple.com
+#ocsp.int-x3.letsencrypt.org
+#ocsp.apple.com
+#world-gen.g.aaplimg.com
