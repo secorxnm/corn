@@ -4,6 +4,15 @@ app-site-association.cdn-apple.com
 app-site-association.networking.apple
 app-site-association.cdn-apple.com.akadns.net
 
+ # Apple
+ca.iadsdk.apple.com
+
+# Ali
+audid-api.taobao.com
+mdap.alipay.com
+atoken.m.taobao.com
+dinamicx.alibabausercontent.com
+
 # Block RED小红书 ads
 ads-video-al.xhscdn.com
 ads-img-al.xhscdn.com
