@@ -9,6 +9,9 @@ DOMAIN,app-site-association.cdn-apple.com.akadns.net
 DOMAIN,ca.iadsdk.apple.com
 DOMAIN,api-adservices.apple.com
 
+# Block Taobao shop page
+DOMAIN,cloud.video.taobao.com
+
 # Ali
 DOMAIN,audid-api.taobao.com
 DOMAIN,atoken.m.taobao.com
@@ -21,7 +24,7 @@ DOMAIN-SUFFIX,log.aliyuncs.com
 DOMAIN,ads-video-al.xhscdn.com
 DOMAIN,ads-img-al.xhscdn.com
 
-# Block 随申办 update & ads
+# Block suishenban update & ads
 DOMAIN,video.goofish.com
 DOMAIN,cdn.eshimin.com
 
@@ -33,5 +36,56 @@ DOMAIN,boot-video.xuexi.cn
 DOMAIN,boot-img.xuexi.cn
 DOMAIN,mpaas-component-mgs4zwy.aliyuncs.com
 
-# Block Taobao shop page
-DOMAIN,cloud.video.taobao.com
+# PCDN domains
+DOMAIN,bsccdn.net
+DOMAIN,dyp2p-ali.douyucdn.cn
+DOMAIN,dyp2p-hw.douyucdn.cn
+DOMAIN,kuiniuca.com
+DOMAIN,onethingpcs.com
+DOMAIN,p2p-ali.douyucdn.cn
+DOMAIN,p2p.huya.com
+DOMAIN,p2p.qq.com
+DOMAIN,p2pchunk-hw.douyucdn.cn
+DOMAIN,p2pchunk-table.douyucdn.cn
+DOMAIN,p2pchunk-ws.douyucdn.cn
+DOMAIN,p2perrorlog.douyucdn.cn
+DOMAIN,p2plive-ali.douyucdn.cn
+DOMAIN,p2plive-ws.douyucdn.cn
+DOMAIN,p2plog.douyucdn.cn
+DOMAIN,p2ptun.qq.com
+DOMAIN,p2pupdate.gamedl.qq.com
+DOMAIN,p2pupgrade.gamedl.qq.com
+DOMAIN,p2pvod-ws.douyucdn.cn
+DOMAIN,pcdn.yximgs.com
+DOMAIN,pkoplink.com
+DOMAIN,saxysec.com
+DOMAIN,stun.douyucdn.cn
+DOMAIN,stun.hitv.com
+DOMAIN,stun1.douyucdn.cn
+DOMAIN,szbdyd.com
+DOMAIN,uhabo.com
+DOMAIN,xycdn.com
+
+# BlockHttpDNS
+DOMAIN,dns.jd.com
+DOMAIN,dns.weibo.cn
+DOMAIN,dns.weixin.qq.com
+DOMAIN,dns.weixin.qq.com.cn
+DOMAIN,httpdns-api.aliyuncs.com
+DOMAIN,httpdns-sc.aliyuncs.com
+DOMAIN,httpdns.alicdn.com
+DOMAIN,httpdns.baidu.com
+DOMAIN,httpdns.baidubce.com
+DOMAIN,httpdns.bilivideo.com
+DOMAIN,httpdns.c.cdnhwc2.com
+DOMAIN,httpdns.calorietech.com
+DOMAIN,httpdns.meituan.com
+DOMAIN,httpdns.music.163.com
+DOMAIN,httpdns.n.netease.com
+DOMAIN,httpdns.pro
+DOMAIN,httpdns.push.oppomobile.com
+DOMAIN,httpdns.volcengineapi.com
+DOMAIN,httpdns.yunxindns.com
+DOMAIN,httpsdns.baidu.com
+DOMAIN,lofter.httpdns.c.163.com
+DOMAIN,music.httpdns.c.163.com
