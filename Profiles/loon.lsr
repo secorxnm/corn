@@ -1,5 +1,4 @@
-###Block###
-
+[Rule]
 # Block UniversalLinks anti-redirect & block detection
 DOMAIN,app-site-association.cdn-apple.com
 DOMAIN,app-site-association.networking.apple
