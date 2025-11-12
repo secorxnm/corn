@@ -19,6 +19,9 @@ DOMAIN,loggw-ex.alipay.com
 DOMAIN,dinamicx.alibabausercontent.com
 DOMAIN-SUFFIX,log.aliyuncs.com
 
+# BlockAbcbankDetect
+DOMAIN,msmp.abchina.com.cn
+
 # Block REDNOTE ads
 DOMAIN,ads-video-al.xhscdn.com
 DOMAIN,ads-img-al.xhscdn.com
