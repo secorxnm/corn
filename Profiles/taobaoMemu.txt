@@ -8,5 +8,6 @@
 天猫农场tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://pages.tmall.com/wow/z/mp/interact/tmall-farm%3FdisableNav%3DYES%26disableProgress%3Dtrue%26spm%3Da21k01.29054023.0.0%26ttid%3D201200%2540tmall_iphone_15.28.2%26deviceId%3D12E0633C-EA3D-421A-B3DD-F8C86269A0CC£3€
 天猫盲盒tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fm.tb.cn/h.T7cm8IJ£3€
 淘宝流浪taobao://market.m.taobao.com/app/starlink/wakeup-transit/pages/download?star_id=3327&slk_force_set_request=true£3€
-天天领红包taobao://m.tb.cn/h.SsdeGlH
+天天领红包taobao://m.tb.cn/h.SsdeGlH£3€
+签到领现金taobao://m.tb.cn/h.SHoOiCz
 结束ends
