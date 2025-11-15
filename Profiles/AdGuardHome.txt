@@ -59,8 +59,10 @@
 /.*pcdn.*youku.com/
 ||pcdn.yximgs.com
 
-# block weixin httpdns
+# block httpdns
 ||aedns.weixin.qq.com^$important
+||dns2.q2cdn.com^$important
+||httpdns.kg.qq.com^$important
 
 # Block Apple Update
 #||gdmf.apple.com^
