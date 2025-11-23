@@ -9,5 +9,6 @@
 天猫盲盒tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fm.tb.cn/h.T7cm8IJ£3€
 淘宝流浪taobao://market.m.taobao.com/app/starlink/wakeup-transit/pages/download?star_id=3327&slk_force_set_request=true£3€
 天天领红包taobao://m.tb.cn/h.SsdeGlH£3€
+淘宝福利购taobao://m.tb.cn/h.SENxKWQ£3€
 签到领现金taobao://m.tb.cn/h.SHoOiCz
 结束ends
