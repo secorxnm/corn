@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "ipleak.net",
+        "www.harvard.edu",
+        "www.princeton.edu",
+        "www.stanford.edu",
+        "www.nasa.gov",
+        "www.mit.edu"
+      ],
+      "domain_suffix": [
+        "googlevideo.com"
+      ],
+      "domain_keyword": [
+        "googlevideo"
+      ]
+    }
+  ]
+}
