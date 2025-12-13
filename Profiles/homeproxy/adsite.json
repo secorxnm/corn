@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "analytics.immersivetranslate.com",
+        "iadsdk.apple.com",
+        "app-site-association.cdn-apple.com",
+        "api.mixpanel.com",
+        "dns.weixin.qq.com.cn",
+        "dns.weixin.qq.com",
+        "mazu.m.qq.com",
+        "oth.eve.mdt.qq.com",
+        "findapi.micloud.xiaomi.net",
+        "tracking.intl.miui.com",
+        "h-adashx.ut.taobao.com",
+        "mdap.alipay.com",
+        "loggw-ex.alipay.com",
+        "umdc.alibabachengdun.com",
+        "dinamicx.alibabausercontent.com",
+        "adashx.ut.amap.com",
+        "app-measurement.com",
+        "static.yximgs.com",
+        "log.mmstat.com",
+        "px.effirst.com"
+      ],
+      "domain_suffix": [
+        "log.aliyuncs.com"
+      ],
+      "domain_keyword": [
+        "logs.amap.com"
+      ]
+    }
+  ]
+}
