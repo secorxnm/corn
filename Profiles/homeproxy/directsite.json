@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "checkip.synology.com",
+        "checkipv6.synology.com",
+        "ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
+        "epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
+        "dl.steam.clngaa.com",
+        "st.dl.bscstorage.net",
+        "st.dl.eccdnx.com",
+        "st.dl.pinyuncloud.com",
+        "cdn-ws.content.steamchina.com",
+        "cdn-qc.content.steamchina.com",
+        "cdn-ali.content.steamchina.com",
+        "epicgames-download1-1251447533.file.myqcloud.com",
+        "test6.ustc.edu.cn",
+        "whatismyip.akamai.com",
+        "api.day.app",
+        "mirrors.vsean.net"
+      ],
+      "domain_suffix": [
+        "gofile.io",
+        "discovery.steamserver.net",
+        "skk.moe",
+        "push.apple.com",
+        "agefans.com"
+      ],
+      "domain_keyword": [
+        "tmall.com"
+      ]
+    }
+  ]
+}
