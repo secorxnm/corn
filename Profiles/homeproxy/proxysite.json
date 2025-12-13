@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "immortalwrt.org",
+        "copilot-proxy.githubusercontent.com",
+        "api.githubcopilot.com",
+        "api.github.com",
+        "steamcommunity.com",
+        "store.steampowered.com",
+        "jable.tv",
+        "www.ntdtv.com",
+        "music.gdstudio.xyz",
+        "openwrt.org"
+      ],
+      "domain_suffix": [
+        "ultramobile.com",
+        "grok.com",
+        "x.ai",
+        "netflix.com",
+        "disneyplus.com",
+        "mozilla.net",
+        "debian.org",
+        "proxmox.com",
+        "pythonhosted.org",
+        "yt1d.com",
+        "greasyfork.org",
+        "reddit.com",
+        "pincong.rocks",
+        "smooth.apple.com",
+        "guzzoni.apple.com",
+        "apple-relay.cloudflare.com",
+        "apple-relay.fastly-edge.com",
+        "apple-relay.apple.com",
+        "guzzoni.apple.com",
+        "cp4.cloudflare.com",
+        "gspe1-ssl.ls.apple.com",
+        "apple-relay.akamaized.net",
+        "apple-relay.mask.apple-dns.net",
+        "gumroad.com",
+        "v2ex.com"
+      ],
+      "domain_keyword": [
+        "apple-relay"
+      ]
+    }
+  ]
+}
