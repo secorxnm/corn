@@ -10,7 +10,9 @@
         "steamcommunity.com",
         "store.steampowered.com",
         "jable.tv",
-        "www.ntdtv.com",
+        "surrit.com",
+        "missav.ws",
+        "flingtrainer.com",
         "music.gdstudio.xyz",
         "openwrt.org"
       ],
@@ -24,7 +26,6 @@
         "debian.org",
         "proxmox.com",
         "pythonhosted.org",
-        "yt1d.com",
         "greasyfork.org",
         "reddit.com",
         "pincong.rocks",
@@ -39,6 +40,7 @@
         "apple-relay.akamaized.net",
         "apple-relay.mask.apple-dns.net",
         "gumroad.com",
+        "hembed.com",
         "v2ex.com"
       ],
       "domain_keyword": [
