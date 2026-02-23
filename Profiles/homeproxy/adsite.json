@@ -28,7 +28,8 @@
         "log.aliyuncs.com"
       ],
       "domain_keyword": [
-        "logs.amap.com"
+        "logs.amap.com",
+        "reading-ad"
       ]
     }
   ]
