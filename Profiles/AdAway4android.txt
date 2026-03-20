@@ -3,9 +3,6 @@
 127.0.0.1 file.update.miui.com
 127.0.0.1 flash.sec.miui.com
 
-# [taobao video]
-127.0.0.1 cloud.video.taobao.com
-
 # [Ali]
 127.0.0.1 audid-api.taobao.com
 127.0.0.1 atoken.m.taobao.com
@@ -13,6 +10,8 @@
 127.0.0.1 loggw-ex.alipay.com
 127.0.0.1 dinamicx.alibabausercontent.com
 127.0.0.1 log.aliyuncs.com
+127.0.0.1 h-adashx.ut.taobao.com
+127.0.0.1 cloud.video.taobao.com
 
 # [BlockAbcbankDetect]
 127.0.0.1 smp.abchina.com.cn
@@ -63,7 +62,7 @@
 127.0.0.1 uhabo.com
 127.0.0.1 xycdn.com
 
-# BlockHttpDNS
+# [BlockHttpDNS]
 127.0.0.1 dns.jd.com
 127.0.0.1 dns.weibo.cn
 127.0.0.1 dns.weixin.qq.com
@@ -86,3 +85,10 @@
 127.0.0.1 httpsdns.baidu.com
 127.0.0.1 lofter.httpdns.c.163.com
 127.0.0.1 music.httpdns.c.163.com
+
+# [Block SDK]
+127.0.0.1 frontier-aweme.snssdk.com
+127.0.0.1 frontier100-toutiao-lq.toutiaoapi.com
+127.0.0.1 frontier.snssdk.com
+
+
