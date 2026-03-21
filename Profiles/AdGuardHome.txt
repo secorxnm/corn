@@ -14,7 +14,7 @@
 ||app-site-association.networking.apple^
 ||app-site-association.cdn-apple.com.akadns.net^
 
-# block xiaomi update
+# Block xiaomi update
 ||update.miui.com^
 ||file.update.miui.com^
 ||flash.sec.miui.com^
@@ -37,6 +37,11 @@
 ||cloudvideocdn.taobao.com^$important
 ||live-spare.alicdn.com^$important
 ||dinamicx.alibabausercontent.com^$important
+
+## Block zijie
+||report.url.cn^$important
+||tr.byteurl.cn^$important
+||v26-gray.toutiaovod.com^$important
 
 ## Block pcdn
 ||gjfzpt.cn^
