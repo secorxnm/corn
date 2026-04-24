@@ -3,7 +3,6 @@
   "rules": [
     {
       "domain": [
-        "immortalwrt.org",
         "copilot-proxy.githubusercontent.com",
         "api.githubcopilot.com",
         "api.github.com",
@@ -12,22 +11,21 @@
         "jable.tv",
         "surrit.com",
         "missav.ws",
-        "flingtrainer.com",
         "music.gdstudio.xyz",
+        "f-droid.org",
+        "linux.do",
+        "www.nodeseek.com",
+        "calibre-ebook.com",
         "openwrt.org"
       ],
       "domain_suffix": [
-        "ultramobile.com",
         "grok.com",
         "x.ai",
-        "netflix.com",
         "disneyplus.com",
         "mozilla.net",
-        "debian.org",
         "proxmox.com",
         "pythonhosted.org",
         "greasyfork.org",
-        "reddit.com",
         "pincong.rocks",
         "smooth.apple.com",
         "guzzoni.apple.com",
@@ -39,9 +37,7 @@
         "gspe1-ssl.ls.apple.com",
         "apple-relay.akamaized.net",
         "apple-relay.mask.apple-dns.net",
-        "gumroad.com",
-        "hembed.com",
-        "v2ex.com"
+        "immortalwrt.org"
       ],
       "domain_keyword": [
         "apple-relay"
