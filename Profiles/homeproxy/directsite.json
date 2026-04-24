@@ -14,18 +14,17 @@
         "cdn-ws.content.steamchina.com",
         "cdn-qc.content.steamchina.com",
         "cdn-ali.content.steamchina.com",
-        "epicgames-download1-1251447533.file.myqcloud.com",
-        "test6.ustc.edu.cn",
         "whatismyip.akamai.com",
         "api.day.app",
-        "mirrors.vsean.net"
+        "nukobaby.v6.rocks",
+        "nekobaby.v6.rocks",
+        "getafreenode.com"
       ],
       "domain_suffix": [
-        "gofile.io",
+        "ustc.edu.cn",
         "discovery.steamserver.net",
         "skk.moe",
-        "push.apple.com",
-        "agefans.com"
+        "push.apple.com"
       ],
       "domain_keyword": [
         "tmall.com"
