@@ -6,10 +6,9 @@
         "copilot-proxy.githubusercontent.com",
         "api.githubcopilot.com",
         "api.github.com",
+        "raw.githubusercontent.com",
         "steamcommunity.com",
         "store.steampowered.com",
-        "jable.tv",
-        "surrit.com",
         "missav.ws",
         "music.gdstudio.xyz",
         "f-droid.org",
@@ -19,6 +18,7 @@
         "openwrt.org"
       ],
       "domain_suffix": [
+        "softonic.com",
         "grok.com",
         "x.ai",
         "disneyplus.com",
