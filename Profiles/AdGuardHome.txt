@@ -73,6 +73,7 @@
 ||aedns.weixin.qq.com^$important
 ||dns2.q2cdn.com^$important
 ||httpdns.kg.qq.com^$important
+||httpdnsmultiapivip.meituan.com^$important
 
 # Block Apple Update
 #||gdmf.apple.com^
