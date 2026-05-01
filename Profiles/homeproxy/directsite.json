@@ -11,23 +11,20 @@
         "st.dl.bscstorage.net",
         "st.dl.eccdnx.com",
         "st.dl.pinyuncloud.com",
-        "cdn-ws.content.steamchina.com",
-        "cdn-qc.content.steamchina.com",
-        "cdn-ali.content.steamchina.com",
         "whatismyip.akamai.com",
-        "api.day.app",
-        "nukobaby.v6.rocks",
-        "nekobaby.v6.rocks",
-        "getafreenode.com"
+        "uxtt.com"
       ],
       "domain_suffix": [
+        "toutiao50.com",
         "ustc.edu.cn",
-        "discovery.steamserver.net",
         "skk.moe",
+        "steamchina.com",
+        "v6.rocks",
+        "day.app",
         "push.apple.com"
       ],
       "domain_keyword": [
-        "tmall.com"
+        "agedm"
       ]
     }
   ]
