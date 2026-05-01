@@ -3,32 +3,34 @@
   "rules": [
     {
       "domain": [
-        "checkip.synology.com",
-        "checkipv6.synology.com",
-        "ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
-        "epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
-        "dl.steam.clngaa.com",
-        "st.dl.bscstorage.net",
-        "st.dl.eccdnx.com",
-        "st.dl.pinyuncloud.com",
-        "cdn-ws.content.steamchina.com",
-        "cdn-qc.content.steamchina.com",
-        "cdn-ali.content.steamchina.com",
-        "whatismyip.akamai.com",
-        "api.day.app",
-        "nukobaby.v6.rocks",
-        "nekobaby.v6.rocks",
-        "uxtt.com"
+        "analytics.immersivetranslate.com",
+        "iadsdk.apple.com",
+        "app-site-association.cdn-apple.com",
+        "api.mixpanel.com",
+        "dns.weixin.qq.com.cn",
+        "dns.weixin.qq.com",
+        "mazu.m.qq.com",
+        "oth.eve.mdt.qq.com",
+        "findapi.micloud.xiaomi.net",
+        "tracking.intl.miui.com",
+        "flash.sec.miui.com",
+        "h-adashx.ut.taobao.com",
+        "mdap.alipay.com",
+        "loggw-ex.alipay.com",
+        "umdc.alibabachengdun.com",
+        "dinamicx.alibabausercontent.com",
+        "adashx.ut.amap.com",
+        "app-measurement.com",
+        "static.yximgs.com",
+        "log.mmstat.com",
+        "px.effirst.com"
       ],
       "domain_suffix": [
-        "toutiao50.com",
-        "ustc.edu.cn",
-        "discovery.steamserver.net",
-        "skk.moe",
-        "push.apple.com"
+        "log.aliyuncs.com"
       ],
       "domain_keyword": [
-        "agedm"
+        "logs.amap.com",
+        "reading-ad"
       ]
     }
   ]
