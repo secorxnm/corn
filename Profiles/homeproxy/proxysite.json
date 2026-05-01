@@ -31,10 +31,13 @@
         "gspe1-ssl.ls.apple.com",
         "apple-relay.akamaized.net",
         "apple-relay.mask.apple-dns.net",
+        "push.apple.com",
+        "akadns.net",
         "immortalwrt.org"
       ],
       "domain_keyword": [
-        "apple-relay"
+        "apple-relay",
+        "apple.com.edgekey.net"
       ]
     }
   ]
