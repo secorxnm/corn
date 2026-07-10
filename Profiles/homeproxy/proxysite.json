@@ -12,6 +12,11 @@
         "linux.do",
         "www.nodeseek.com",
         "calibre-ebook.com",
+        "download.proxmox.com",
+        "security.debian.org",
+        "deb.debian.org",
+        "samvan.ca",
+        "sysupgrade.kyarucloud.moe",
         "openwrt.org"
       ],
       "domain_suffix": [
@@ -33,6 +38,12 @@
         "apple-relay.mask.apple-dns.net",
         "push.apple.com",
         "akadns.net",
+        "assets-cdn.jable.tv",
+        "surrit.com",
+        "ultramobile.com",
+        "iyf.tv",
+        "dataphasorb.vip",
+        "pipecdn.vip",
         "immortalwrt.org"
       ],
       "domain_keyword": [
