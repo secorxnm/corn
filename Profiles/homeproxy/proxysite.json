@@ -16,7 +16,6 @@
         "security.debian.org",
         "deb.debian.org",
         "samvan.ca",
-        "sysupgrade.kyarucloud.moe",
         "openwrt.org"
       ],
       "domain_suffix": [
@@ -44,11 +43,14 @@
         "iyf.tv",
         "dataphasorb.vip",
         "pipecdn.vip",
+        "globalcdmnetworkd.vip",
+        "globenetb.vip",
+        "anybound.vip",
         "immortalwrt.org"
       ],
       "domain_keyword": [
         "apple-relay",
-        "apple.com.edgekey.net"
+        ".vip"
       ]
     }
   ]
