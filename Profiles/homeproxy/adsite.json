@@ -21,6 +21,7 @@
         "umdc.alibabachengdun.com",
         "dinamicx.alibabausercontent.com",
         "adashx.ut.amap.com",
+        "logs.amap.com",
         "app-measurement.com",
         "static.yximgs.com",
         "log.mmstat.com",
@@ -31,11 +32,11 @@
       ],
       "domain_keyword": [
         "logs.amap.com",
-        "p5-live",
+        "-live.ws",
         "access-live",
         "gifshow.com",
         "djlive.ndcimgs.com",
-        "live-native",
+        "live-native-ws",
         "reading-ad"
       ]
     }
