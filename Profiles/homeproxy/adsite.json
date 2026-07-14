@@ -31,10 +31,11 @@
       ],
       "domain_keyword": [
         "logs.amap.com",
-        "live.wskwai.com",
-        "live.d.xxpkg.com",
+        "p5-live",
+        "access-live",
         "gifshow.com",
         "djlive.ndcimgs.com",
+        "live-native",
         "reading-ad"
       ]
     }
