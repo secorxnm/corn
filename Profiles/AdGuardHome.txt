@@ -80,6 +80,15 @@
 #||xp.apple.com^
 #||gg.apple.com^
 
+# Block kuaishou Live
+||live-native-ws-js.ksapisrv.com^$important
+||live-tm-center.gifshow.com^$important
+||live-native-ws.gifshow.com^$important
+||live-native-ws-idc.gifshow.com^$important
+||djlive.ndcimgs.com^$important
+||hdns.k-dyn.com^$important
+/p*-live.*.com/
+
 ## Allow zijie
 #@@||lf3-cdn-tos.bytegoofy.com^$important
 #@@||lf-cdn-tos.bytescm.com^$important
