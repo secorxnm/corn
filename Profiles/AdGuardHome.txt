@@ -60,7 +60,7 @@
 #||live-native-ws.gifshow.com^$important
 #||live-native-ws-idc.gifshow.com^$important
 #||djlive.ndcimgs.com^$important
-||hdns.k-dyn.com^$important
+#||hdns.k-dyn.com^$important
 #/p*-live.*.com/
 
 ## Allow zijie
