@@ -69,3 +69,7 @@
 #@@||p3-sign.douyinpic.com^$important
 #@@||auth.zijieapi.com^$important
 #@@||mon.zijieapi.com^$important
+
+||cfgc.zztfly.com^$important
+||toblog.volceapplog.com^$important
+||tobapplog.volceapplog.com^$important
