@@ -42,7 +42,7 @@
         "mask-api.icloud.com",
         "mask-api.fe2.apple-dns.net",
         "apple-relay.akamaized.net",
-        "apple-carry-relay.cloudflare.com"
+        "apple-carry-relay.cloudflare.com",
         "gspe1-ssl.ls.apple.com",
         "push.apple.com",
         "akadns.net",
@@ -56,6 +56,10 @@
         "globenetb.vip",
         "anybound.vip",
         "uptodown.com",
+        "claude.com",
+        "anthropic.com",
+        "cdn.usefathom.com",
+        "claude.ai",
         "jable.tv",
         "mushroomtrack.com",
         "immortalwrt.org"
