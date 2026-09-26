@@ -6,9 +6,6 @@
 # Allow ultra moible charge
 @@||js.braintreegateway.com^$important
 
-## Allow ETC check
-@@||web-stat.jiguang.cn^$important
-
 # Block UniversalLinks anti-redirect & block detection
 ||app-site-association.cdn-apple.com^
 ||app-site-association.networking.apple^
@@ -22,37 +19,21 @@
 # BlockAbcbankDetect
 ||msmp.abchina.com.cn^
 
-# Block 随申码 update & ads
-||video.goofish.com^
-||cdn.eshimin.com^
-
-# Blcok 学习强国 images & videos
-||cloudauth-device.aliyuncs.com^
-||mpaas-loggw4zwy.aliyuncs.com^
-||arms-retcode.aliyuncs.com^
-||boot-img.xuexi.cn^
-
 # Block Taobao shop page
 ||cloud.video.taobao.com^
-||cloudvideocdn.taobao.com^$important
-||live-spare.alicdn.com^$important
 ||dinamicx.alibabausercontent.com^$important
 
-## Block zijie
+# Block zijie
 ||report.url.cn^$important
 ||tr.byteurl.cn^$important
 ||v26-gray.toutiaovod.com^$important
+||cfgc.zztfly.com^$important
+||toblog.volceapplog.com^$important
+||tobapplog.volceapplog.com^$important
 
-# block httpdns
-||aedns.weixin.qq.com^$important
-||dns2.q2cdn.com^$important
-||httpdns.kg.qq.com^$important
-||httpdnsmultiapivip.meituan.com^$important
-
-# Block Apple Update
-#||gdmf.apple.com^
-#||xp.apple.com^
-#||gg.apple.com^
+# Block 随申码 update & ads
+||video.goofish.com^
+||cdn.eshimin.com^
 
 # Block kuaishou Live
 ||live-native-ws-js.ksapisrv.com^$important
@@ -60,16 +41,3 @@
 ||live-native-ws.gifshow.com^$important
 ||live-native-ws-idc.gifshow.com^$important
 ||djlive.ndcimgs.com^$important
-#||hdns.k-dyn.com^$important
-#/p*-live.*.com/
-
-## Allow zijie
-#@@||lf3-cdn-tos.bytegoofy.com^$important
-#@@||lf-cdn-tos.bytescm.com^$important
-#@@||p3-sign.douyinpic.com^$important
-#@@||auth.zijieapi.com^$important
-#@@||mon.zijieapi.com^$important
-
-||cfgc.zztfly.com^$important
-||toblog.volceapplog.com^$important
-||tobapplog.volceapplog.com^$important
