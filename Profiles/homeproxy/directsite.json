@@ -7,23 +7,18 @@
         "checkipv6.synology.com",
         "ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
         "epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
-        "dl.steam.clngaa.com",
-        "st.dl.bscstorage.net",
-        "st.dl.eccdnx.com",
-        "st.dl.pinyuncloud.com",
         "whatismyip.akamai.com",
-        "sysupgrade.kyarucloud.moe",
         "downloaddispatch.itunes.apple.com",
         "uxtt.com"
       ],
       "domain_suffix": [
         "toutiao50.com",
-        "steamchina.com",
         "v6.rocks",
         "day.app",
         "ustc.edu.cn"
       ],
       "domain_keyword": [
+        "mtalk.google.com",
         "china"
       ]
     }
