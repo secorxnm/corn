@@ -15,15 +15,10 @@
         "download.proxmox.com",
         "security.debian.org",
         "deb.debian.org",
-        "mask-api.fe.apple-dns.net",
-        "mask-api.icloud.com",
-        "mask-t.apple-dns.net",
-        "mask.apple-dns.net",
         "sto9.com",
         "samvan.ca",
         "www.xiaobaotv.com",
         "gofile.io",
-        "sto9.com",
         "openwrt.org"
       ],
       "domain_suffix": [
@@ -33,20 +28,7 @@
         "proxmox.com",
         "greasyfork.org",
         "pincong.rocks",
-        "smoot.apple.com",
-        "apple-relay.apple.com",
-        "apple-relay.cloudflare.com",
-        "apple-relay.fastly-edge.com",
-        "apple-relay.mask.apple-dns.net",
-        "cp4.cloudflare.com",
-        "gspe1-ssl.ls.apple.com",
-        "gateway.icloud.com",
-        "ls.apple.com",
-        "mask-h2.icloud.com",
-        "mask.icloud.com",
-        "apps.apple.com",
-        "apple-dns.net",
-        "assets-cdn.jable.tv",
+        "jable.tv",
         "surrit.com",
         "ultramobile.com",
         "iyf.tv",
@@ -65,8 +47,6 @@
         "immortalwrt.org"
       ],
       "domain_keyword": [
-        "siri",
-        "ls.apple.com",
         "apple-relay",
         ".vip"
       ]
