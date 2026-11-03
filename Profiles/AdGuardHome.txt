@@ -11,10 +11,11 @@
 ||app-site-association.networking.apple^
 ||app-site-association.cdn-apple.com.akadns.net^
 
-# Block xiaomi update
+# Block xiaomi 
 ||update.miui.com^
 ||file.update.miui.com^
 ||flash.sec.miui.com^
+||fraud-detection.engine.miui.com^
 
 # BlockAbcbankDetect
 ||msmp.abchina.com.cn^
