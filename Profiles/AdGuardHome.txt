@@ -15,8 +15,6 @@
 ||update.miui.com^
 ||file.update.miui.com^
 ||flash.sec.miui.com^
-||fraud-detection.engine.miui.com^
-||antifraud.cup.com.cn^
 
 # BlockAbcbankDetect
 ||msmp.abchina.com.cn^
